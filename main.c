@@ -1,45 +1,4 @@
-/*#include <stdio.h>
 
-int binary_search(int arr[], int left, int right, int key) {
-    while (left <= right) {
-        int mid = left + (right - left) / 2;
-        if (arr[mid] == key)
-            return mid;
-        if (arr[mid] < key)
-            left = mid + 1;
-        else
-            right = mid - 1;
-    }
-    return -1; 
-}
-
-
-    int main() {
-    int arr[50]; // Assuming maximum array size is 100
-    int size, target;
-
-    // Input size of the array
-    printf("Enter the size of the array: ");
-    scanf("%d", &size);
-
-    // Input array elements
-    printf("Enter the elements of the array in sorted order:\n");
-    for (int i = 0; i < size; i++) {
-        scanf("%d", &arr[i]);
-    }
-
-    // Input target element
-    printf("Enter the target element to search: ");
-    scanf("%d", &target);
-
-    // Perform binary search
-    int result = binary_search(arr, size, target);
-    if (result != -1)
-        printf("Element %d found at index %d\n", target, result);
-    else
-        printf("Element %d not found in the array\n", target);
-    return 0;
-}*/
 
 #include <stdio.h>
 
